@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Aldrich';
+}
+body {
+    background-color: rgb(159, 235, 197);
+}
+#buttons {
+    width: fit-content;
+    margin: 4vh auto 0 auto;
+}
+.button {
+    font-family: 'Aldrich';
+    border: 0.4vh solid black;
+    margin-left: 1vw;
+    text-align: center;
+    font-size: 3vh;
+    padding: 2vh 2vw;
+    background-color: rgb(159, 235, 197);
+    border-radius: 1vh;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+.button:hover {
+    background-color: black;
+    color: rgb(159, 235, 197);
+    transition: 0.4s;
+}
+#timer {
+    font-family: 'Abel';
+    text-align: center;
+    font-size: 7.5vh;
+    color: rgb(57, 162, 109);
+    font-weight: bold;
+}
